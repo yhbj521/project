@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Great Barrier Reef</title>
+
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/videoUI.css">
+	<script src="js/videoUI.js"></script>
+	<script src="js/lunbo.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+	<link rel="stylesheet" type="text/css" href="css/style3.css">
+	<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+		<script> 
+		$(document).ready(function(){
+		  $("#flip").click(function(){
+		    $("#panel").slideToggle("slow");
+		  });
+		});
+	</script>
+	 
+	<style type="text/css"> 
+	#panel,#flip
+	{
+		padding:5px;
+		text-align:center;
+		background-color:#E6E6E6;
+		border:solid 1px #c3c3c3;
+		cursor: pointer;
+	}
+	#panel
+	{
+		padding:50px;
+		display:none;
+	}
+	</style>
+	</head>
+	<body >
+		<div class="bj">
+			<img class="pp" src="img/timg.jpg">
+			<ul class="nav">
+				<li><a href="index.html">首页</a></li></a>
+				<li><a href="Attraction 1.html">阿拉斯加冰河湾</a></li>
+		        <li><a href="Attraction2.html">黄石公园</a></li>
+		        <li><a href="Attraction3.html">珠穆朗玛峰</a></li>
+				<li><a href="Attraction4.html">大堡礁</a></li>
+		        <li><a href="Attraction5.html">科罗拉多大峡谷</a></li>
+				<li><a href="Attraction6.html">维多利亚瀑布</a></li>
+		        <li><a href="Attraction7.html">贝加尔湖</a></li>
+			</ul>
+		</div>
+		
+		<div class="part_2">
+			<div class="first clear_fix">
+				<div class="first_text">
+					<h2 style="margin-top: -8px;">心形礁</h2>
+					<p class="kp">心形礁是澳大利亚的著名风景点大堡礁的一奇特景观，也是在大堡礁我们应该必看的景点之一，在空中俯瞰，它是一个天然的心形，再加上大堡礁本身很好看的水色，景色更是美轮美奂。</p>
+					<p class="kp">心形礁，位于澳大利亚，是大堡礁的一部分。形如其名，如果说这是上帝的作品,那么似乎可以说,原来上帝也是愿意把这里当作心灵的栖息之地的.</p>
+					<p class="kp">大堡礁是世界上最大的珊瑚群，珊瑚虫分泌的石灰质骨骼，连同藻类、贝壳等海洋生物残骸胶结在一起，堆积成了一个个珊瑚礁体。这里是海洋生物的伊甸园，也是人类幻想中的自己的伊甸园。</p>
+				</div>
+				<div class="first_left">
+					<img src="img/DBJ6.jpg">
+				</div>
+			</div>
+			
+			<video id="myvideo" src="video.mp4" controls="controls" loop="loop" ></video>
+			<div id="box" class="box">
+				<div id="play" class="play"></div>
+				<div id="progress" class="progress">
+					<div id="bar" class="bar"></div>
+					<div id="control" class="control"></div>
+				</div>
+				<div id="sound" class="soundon"></div>
+				<div id="volume" class="volume">
+					<div id="volume_bar" class="volume-bar"></div>
+					<div id="volume_control" class="volume-control"></div>
+				</div>
+				<div id="full" class="full"></div>
+			</div>
+			
+			<div class="first clear_fix">
+				<div class="first_text">
+					<h2 style="margin-top: -57px;">百态珊瑚</h2>
+					<p class="kp">这里生活着多种多样的活珊瑚，它的分泌物和其他的一些物质构成了现今的珊瑚礁。营造如此庞大“工程”的是直径只有几毫米的腔肠动物——珊瑚虫。珊瑚虫最早出现约4.7亿年前的古生代奥陶纪中期。珊瑚虫只能生活在全年水温保持在22-28℃的水域里，水质必须洁净。澳大利亚东北岸外大陆架海域具备珊瑚虫繁衍生息的条件。珊瑚虫以浮游生物为食，营集体生活。珊瑚虫常常分泌出一种碳性物质，这种物质与珊瑚虫石灰质的骨骼及单细胞藻类的残骸混合、堆积，形成礁区。它们有的在水面以下，有的露出水面，露出水面的珊瑚群就是海岛。第一代珊瑚虫死后留下遗骸，新一代继续发育繁衍，向高处和两旁发展。如此日积月累，珊瑚虫的石灰质骨骸连同藻类、贝壳等海洋生物残骸胶结在一起，逐渐堆积成巨大的珊瑚礁体。</p>
+				</div>
+				<div class="first_left">
+					<p>
+						图片轮播:</br>
+						<img src="img/DBJ7.jpg" id="lb" width="360px" height="270px"/></br>
+						<center>
+						<input type="button" value="开始" id="btn" onclick="start()">&nbsp;
+						<input type="button" value="结束"  onclick="stop()" />
+						</center>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="footer clear_fix">
+			<ul class="share_group">
+				<a href="#"><li>享自然之美</li></a>
+				<a href="#"><li>I&nbsp;&nbsp;掌生命之律</li></a>
+			</ul>
+		</div>
+	</body>
+</html>

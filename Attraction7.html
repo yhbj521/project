@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+	<title>Lake Baikal</title>
+	<link rel="stylesheet" href="./css/audioPlayer.css"/>
+	<script src="./js/jquery-3.3.1.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+	<link rel="stylesheet" type="text/css" href="css/style3.css">
+	<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+	</script>
+		<script> 
+		$(document).ready(function(){
+		  $("#flip").click(function(){
+		    $("#panel").slideToggle("slow");
+		  });
+		});
+	</script>
+	 
+	<style type="text/css"> 
+	#panel,#flip
+	{
+		padding:5px;
+		text-align:center;
+		background-color:#E6E6E6;
+		border:solid 1px #c3c3c3;
+		cursor: pointer;
+	}
+	#panel
+	{
+		padding:50px;
+		display:none;
+	}
+	</style>
+	</head>
+	<body style="background-image: url(img/BJEH.jpg);">
+		<div class="bj">
+			<img class="pp" src="img/timg.jpg">
+			<ul class="nav">
+				<li><a href="index.html">首页</a></li></a>
+				<li><a href="Attraction 1.html">阿拉斯加冰河湾</a></li>
+		        <li><a href="Attraction2.html">黄石公园</a></li>
+		        <li><a href="Attraction3.html">珠穆朗玛峰</a></li>
+				<li><a href="Attraction4.html">大堡礁</a></li>
+		        <li><a href="Attraction5.html">科罗拉多大峡谷</a></li>
+				<li><a href="Attraction6.html">维多利亚瀑布</a></li>
+		        <li><a href="Attraction7.html">贝加尔湖</a></li>
+			</ul>
+		</div>
+		
+		<div class="part_2">
+			<div class="first clear_fix">
+				<div class="audioPlayer">
+				    <div class="time">
+				        <span class="currentTime">00:00</span>
+				        /
+				        <span class="totalTime">00:00</span>
+				    </div>
+				    <div class="btn">
+				        <img src="./img/play.png" class="play" alt=""/>
+				        <img src="./img/pause.png" class="pause" alt=""/>
+				    </div>
+				    <audio id="audio" src="audio/bjeh.mp3"></audio>
+				    <div class="totalProgress">
+				        <div class="currentProgress"></div>
+				    </div>
+				</div>		
+			</div>
+			
+			<div class="first clear_fix">
+				<div class="first_left">
+					<img src="img/BJEH2.jpg">
+				</div>
+				<div class="first_text">
+					<h2 style="margin-top: -29px">气候特征</h2>
+					<p class="kp">贝加尔湖周边地区属温带大陆性气候，温差大，月平均气温-26℃～-33℃，7月平均气温17℃～21℃。</p>
+					<p class="kp">在冬季，贝加尔湖周边气温平均为-38℃，每年1月开始结冰，到5月之后才解冻，冰层大致在70～115厘米之间，贝加尔湖巨大的水体使其湖滨夏季气温比周围地区约低6℃，冬季约高11℃，具有海洋性效应，但位于西伯利亚的贝加尔湖冬季仍然十分寒冷，1月平均低温在-38℃，但是冰层下的水温仍然保持3.5℃～4.5℃之间。19世纪70年代，贝加尔湖融冰的时间开始于每年5月10日左右，瑞士科学家的一项研究表明，在1869年和1999年之间，贝加尔湖开始融冰的时间平均每十年提前半天。在1869年和1920年之间，贝加尔湖开始融冰的时间平均每十年提前3天左右。</p>
+			</div>
+			
+			<div class="first clear_fix">
+				<div class="first_text">
+					<h2 style="margin-top: -58px;">形成演变</h2>
+					<p class="kp">贝加尔湖形成于约2500万年前印度板块和欧亚板块相互碰撞后的强烈地震。前苏联科学家维列夏金根据古生物和地质方面的材料推测，中生代侏罗纪时的贝加尔湖以东地区，曾有过一个浩瀚的外贝加尔海。后来由于地壳变动，留下了内陆湖泊——贝加尔湖。随着雨水、河水的不断加入，咸水变淡。20世纪90年代初期，科学家根据贝加尔湖钻井取出的岩芯样品中未发现任何关于中生代的东西。现一些材料证明，没有中生代的沉积层，只有新生代的沉积岩层，贝加尔湖地区长时间以来一直是陆地，且它是在地壳断裂活动中形成的断层湖，从而否定了贝加尔湖的海洋生物是海退遗种的说法。</p>
+					<p class="kp">地球膨裂说认为，46亿年前地球形成之后，在39亿年前，空气中的水蒸汽凝结成水珠降回地表形成海洋，这时的海洋覆盖这整个地球，深度1.2万米。5.2亿年前，由于地球发生了大的膨裂，海水流入地壳的裂缝，海水从大陆上逐步退出，大陆逐渐露出海面，一些海洋生物就留在了大陆上低洼地区的湖泊里。5.2亿年前，贝加尔湖的湖水是咸的，但由于大量的雨水、河水不断流入贝加尔湖，湖水逐渐变淡。一些在海洋咸水中生存的海洋生物，逐渐适应了贝加尔湖中的淡水环境。</p>
+				</div>
+				<div class="first_left">
+					<img src="img/BJEH5.jpg">
+				</div>
+			</div>
+		</div>
+		<div class="footer clear_fix">
+			<ul class="share_group">
+				<a href="#"><li>享自然之美</li></a>
+				<a href="#"><li>I&nbsp;&nbsp;掌生命之律</li></a>
+			</ul>
+		</div>
+	</body>
+	<script src="./js/audioPlayer.js"></script>
+</html>
